@@ -1,0 +1,6 @@
+# Ignore artifacts:
+android
+ios
+node_modules
+package.json
+.env

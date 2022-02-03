@@ -1,3 +1,6 @@
+
+
+
 export interface IAppState {
     auth: IAuth;
     lang: ILanguage;
@@ -36,7 +39,8 @@ export interface ITextInput {
 }
 
 export interface ILoginPayload {
-    username: string;
+    accountCode: string;
+    userCode: string;
     password: string;
 }
 
